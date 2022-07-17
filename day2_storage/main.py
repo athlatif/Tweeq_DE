@@ -7,7 +7,7 @@ import awswrangler as wr
 
 
 # [2] define MongoClient with URI, replace the password 
-client = MongoClient("mongodb+srv://tweeq:tweeq@cluster0.fnah7gp.mongodb.net/?retryWrites=true&w=majority", tls=True,
+client = MongoClient("uri", tls=True,
                              tlsAllowInvalidCertificates=True)
 # [3] access the database, you can use [ client.sample_airbnb ] too
 mydb = client["sample_airbnb"]
