@@ -61,8 +61,8 @@ users_tbl = users_tbl.drop('_id')
 # COMMAND ----------
 
 #mount s3 bucket: starting the s3 connection
-ACCESS_KEY = "AKIASIFOMYOVXAAU6GZL"
-secret_key = "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"
+ACCESS_KEY = "xx"
+secret_key = "xx"
 AwsBucketName = "tweeq-academy"
 MountName = "/mnt/MOUNT-tweeq-academy"
 
